@@ -1,8 +1,16 @@
 @import "normalize.css";
 
-*,
-*::before,
-*::after {
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+.jetbrains-mono-<brains> {
+  font-family: "JetBrains Mono", monospace;
+} */
+
+* {
+  background-color: #1C1B22;
+  color: aliceblue;
+  font-family: "JetBrains Mono", monospace;
   box-sizing: border-box;
 }
 

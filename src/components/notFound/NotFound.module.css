@@ -1,0 +1,9 @@
+h3 {
+    font-size: 60px;
+    margin-top: 30%;
+}
+a {
+    display: flex;
+    justify-content: center;
+    color: #08FC9D;
+}

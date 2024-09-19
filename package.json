@@ -10,9 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dompurify": "^3.1.6",
+    "hltv": "^3.5.0",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-player": "^2.16.0",
+    "react-router-dom": "^6.26.2",
+    "react-router-hash-link": "^2.4.3",
+    "reddit-embed": "^1.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
