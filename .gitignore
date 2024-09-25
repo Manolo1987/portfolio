@@ -25,3 +25,7 @@ dist-ssr
 
 # API-Key
 api.js
+
+StatsExplanation.jsx
+HomeExplanation.jsx
+detailed-stats-component-explanation.md

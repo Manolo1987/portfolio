@@ -3,7 +3,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* margin: 0 3%; */
+    margin: 0 5%;
 
     h1 {
         margin: .2em .2em .2em .6em;
@@ -34,7 +34,7 @@
 
                 a {
                     color: #08FC9D;
-                    padding: .2em;
+                    padding: .5em 1em;
                     font-size: clamp(12px, 24px);
                     text-decoration: none;
                 }
@@ -43,9 +43,41 @@
                     color: #1C1B22;
                     background-color: #08FC9D;
                     border-radius: 10px;
+                    padding: .5em 1em;
                 }
             }
         }
     }
 
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+
+        nav {
+            /* width: auto; */
+
+            ul {
+                flex-direction: row;
+
+                li {
+                    margin-left: .5em;
+
+                    a {
+                        font-size: 1.2em;
+                        padding: .5em 1em;
+                    }
+                    
+                    a:hover{
+                        color: #1C1B22;
+                        background-color: #08FC9D;
+                        border-radius: 10px;
+                        padding: .5em 1em;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styles from './Navbar.module.css'
-import ReactPlayer from 'react-player'
 
 export default function navbar() {
   return (
